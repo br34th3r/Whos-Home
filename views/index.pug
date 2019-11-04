@@ -1,0 +1,26 @@
+html
+	head
+		title Who's Home?
+		link(rel="stylesheet", type="text/css", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+	body
+		div(class="container")
+			h1(class="display-1 text-center") Who's Home?
+			br
+			div(class="row")
+				div(class="col-sm")
+					div(class="card")
+						div(class="card-header")
+							h5(class="card-title") Josh
+						div(class="card-body text-center", style="font-size: 3em;")
+							span(style="color: " + joshColor) #{josh}
+						div(class="card-footer text-center")
+							a(href="/josh/toggle", class="btn btn-light btn-lg btn-block") Change
+				div(class="col-sm")
+					div(class="card")
+						div(class="card-header card-title")
+							h5(class="card-title") Piotr
+						div(class="card-body text-center", style="font-size: 3em;")
+							span(style="color: " + piotrColor) #{piotr}
+						div(class="card-footer text-center")
+							a(href="/piotr/toggle", class="btn btn-light btn-lg btn-block") Change
+
