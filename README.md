@@ -7,6 +7,9 @@ Uses pug view engine in express to create the web UI and then node on the backen
 To clone and use, simply run:
 
 `git clone https://github.com/br34th3r/Whos-Home.git`
+
 `cd Whos-Home`
+
 `npm install`
+
 `node whos-home.js`
